@@ -1,0 +1,119 @@
+body {
+    margin: 20px 0 0 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background-image: url("https://cdn.vectorstock.com/i/preview-1x/52/02/color-background-vector-21105202.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed; */
+}
+
+
+
+.auth-page-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth-form-container {
+    text-align: center;
+    width: 100%;
+    max-width: 350px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.auth-toggle-container {
+    width: 100%;
+    max-width: 350px;
+    padding: 40px;
+    background-color: #fff;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    text-align: center;
+}
+
+h1 {
+    font-family: cursive;
+    font-size: 50px;
+    margin-bottom: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: #3897f0;
+}
+
+p{
+    font-size: 14px;
+}
+
+.form-group {
+    margin-bottom: 10px;
+}
+
+.form-control {
+    width: 320px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #dbdbdb;
+    border-radius: 5px;
+    background-color: #fafafa;
+    font-size: 14px;
+}
+
+.btns {
+    font-size: 17px;
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    border: none;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.or-separator {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 0;
+    text-align: center;
+}
+
+.or-separator .or {
+    background-color: #fff;
+    padding: 0 10px;
+    color: #8e8e8e;
+}
+
+.forgot-password {
+    display: block;
+    margin-top: 20px;
+    margin-bottom: 12px;
+    color: #3897f0;
+    text-decoration: none;
+}
+
+.auth-toggle-container p {
+    margin: 0;
+}
+
+.auth-toggle-container a {
+    color: #3897f0;
+    text-decoration: none;
+}
+
+input{
+    width: 50px;
+}
+
+::placeholder{
+    font-size: 12px;
+}
